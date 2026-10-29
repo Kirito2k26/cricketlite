@@ -13,3 +13,7 @@ Bat: shot direction and type, click SWING (or Space when ball is moving). Bowl: 
 
 ## Notes
 Online multiplayer and server code are not included. Fielding, running and some dismissal rules are simplified.
+
+
+## Branding
+`logo.png` is the Cricket Lite logo; `favicon.ico` and `favicon.png` are browser tab icons. `index.html` links to these files and displays the logo in the header.
