@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://cricketlite.vercel.app/sitemap.xml
