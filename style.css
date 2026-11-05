@@ -25,3 +25,11 @@ button.secondary,.buttons button{background:#302717;color:#fff3d5;border:1px sol
 #stepOut.active{background:#ffcf43;color:#1b1409}
 button:disabled{opacity:.48;cursor:not-allowed}
 @media(max-width:650px){.bowling-row{grid-template-columns:1fr}.match-meta{font-size:12px}}
+
+/* Balanced batting feedback */
+.timing-help{margin-top:14px;font-weight:750;color:#f8d974;min-height:1.3em;letter-spacing:.02em}
+#timingMeter{transition:width .05s linear,background-color .1s linear}
+#timingMeter[data-quality="perfect"]{background:#53d68d}
+#timingMeter[data-quality="good"]{background:#eacb4d}
+#timingMeter[data-quality="weak"]{background:#ed9652}
+#timingMeter[data-quality="miss"]{background:#9c645b}

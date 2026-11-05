@@ -17,3 +17,7 @@ Online multiplayer and server code are not included. Fielding, running and some 
 
 ## Branding
 `logo.png` is the Cricket Lite logo; `favicon.ico` and `favicon.png` are browser tab icons. `index.html` links to these files and displays the logo in the header.
+
+
+## Balanced batting update
+SWING during run-up queues a shot at the optimal contact point. Manual timing gives perfect, good, weak, or missed contact; timing windows scale with Easy/Medium/Hard. The batting panel shows a live timing indicator.
