@@ -5,3 +5,23 @@
 /* Cricket Lite identity */
 header h1{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .brand-logo{width:58px;height:58px;object-fit:cover;border-radius:14px;box-shadow:0 3px 12px rgba(0,0,0,.22)}
+
+/* CricketLite v2 — Royal Gold */
+:root{color:#fff3d5;background:#110f0b;color-scheme:dark}
+body{background:radial-gradient(ellipse at top,#3a2b12 0%,#17130e 47%,#0d0c0a 100%);min-height:100vh}
+.panel,.controls,.score,.info,.status,.match-meta{background:linear-gradient(145deg,#292117,#141210);border:1px solid #856322;box-shadow:0 3px 16px #0003;color:#fff3d5}
+header p,.hint,footer,.controls p,.content p,.content li{color:#dacaa9}
+select,input{background:#211a12;color:#fff7dc;border:1px solid #9a752b}
+button{background:linear-gradient(#ffe27b,#e5ab21);color:#211606;border:1px solid #efca58}
+button.secondary,.buttons button{background:#302717;color:#fff3d5;border:1px solid #96712a}
+.buttons button.selected{background:#eab92f;color:#241904}
+.score strong{color:#ffe38d}.score small{color:#ddc99f}.vs{color:#ffc832}
+.field-wrap{background:#1e301a;border:2px solid #b28a32}
+.meter{background:#443620}#timingMeter{background:#ffd23f}
+.footer-links a,.content a,.back-link{color:#ffda63}
+.match-meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;border-radius:12px;padding:11px 16px;margin:10px 0;font-size:13px}
+#freeHitStatus{color:#ffdb51;font-weight:900}
+.bowling-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#stepOut.active{background:#ffcf43;color:#1b1409}
+button:disabled{opacity:.48;cursor:not-allowed}
+@media(max-width:650px){.bowling-row{grid-template-columns:1fr}.match-meta{font-size:12px}}
