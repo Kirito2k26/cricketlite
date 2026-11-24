@@ -33,3 +33,5 @@ button:disabled{opacity:.48;cursor:not-allowed}
 #timingMeter[data-quality="good"]{background:#eacb4d}
 #timingMeter[data-quality="weak"]{background:#ed9652}
 #timingMeter[data-quality="miss"]{background:#9c645b}
+
+@media(max-width:480px){.app{padding:8px}.settings,.bowling-row{grid-template-columns:1fr!important}.panel,.controls{padding:12px}.controls button,.settings select{min-height:44px}.buttons button{flex:1 1 100px}header{flex-wrap:wrap}.field-wrap{max-width:100%}select{max-width:100%}}
